@@ -5,7 +5,13 @@ Strange error saying SQLiteDatabase doesn't implement java.io.Closeable
 
 See here: https://github.com/blundell/SQLDatabaseError/blob/master/SqlDatabaseCursorError/src/com/blundell/sqldatabasecursorerror/DatabaseHelper.java
 
-Tested on an Xperia Play Android 2.3.3
+Doesn't work:
+
+Xperia Play Android 2.3.4
+
+Does work:
+
+Samsung Galaxy Nexus Android 4.2
 
 http://developer.android.com/reference/android/database/sqlite/SQLiteDatabase.html
 http://developer.android.com/reference/android/database/sqlite/SQLiteClosable.html
