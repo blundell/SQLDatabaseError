@@ -7,6 +7,7 @@ http://developer.android.com/reference/android/database/sqlite/SQLiteDatabase.ht
 http://developer.android.com/reference/android/database/sqlite/SQLiteClosable.html
 http://developer.android.com/reference/java/io/Closeable.html
 
+<pre>
 12-14 12:23:43.719: E/AndroidRuntime(5179): FATAL EXCEPTION: main
 12-14 12:23:43.719: E/AndroidRuntime(5179): java.lang.IncompatibleClassChangeError: interface not implemented
 12-14 12:23:43.719: E/AndroidRuntime(5179):   at com.blundell.sqldatabasecursorerror.DatabaseHelper.close(DatabaseHelper.java:35)
@@ -25,7 +26,7 @@ http://developer.android.com/reference/java/io/Closeable.html
 12-14 12:23:43.719: E/AndroidRuntime(5179): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
 12-14 12:23:43.719: E/AndroidRuntime(5179): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:624)
 12-14 12:23:43.719: E/AndroidRuntime(5179): 	at dalvik.system.NativeStart.main(Native Method)
-
+</pre>
 
     public void openAndCloseDatabase() {
   	    SQLiteDatabase database = getWritableDatabase();
