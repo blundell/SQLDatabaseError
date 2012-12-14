@@ -3,6 +3,8 @@ SQLDatabaseError
 
 Strange error saying SQLiteDatabase doesn't implement java.io.Closeable
 
+See here: https://github.com/blundell/SQLDatabaseError/blob/master/SqlDatabaseCursorError/src/com/blundell/sqldatabasecursorerror/DatabaseHelper.java
+
 http://developer.android.com/reference/android/database/sqlite/SQLiteDatabase.html
 http://developer.android.com/reference/android/database/sqlite/SQLiteClosable.html
 http://developer.android.com/reference/java/io/Closeable.html
