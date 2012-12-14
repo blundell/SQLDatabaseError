@@ -27,7 +27,7 @@ http://developer.android.com/reference/java/io/Closeable.html
 12-14 12:23:43.719: E/AndroidRuntime(5179): 	at dalvik.system.NativeStart.main(Native Method)
 
 
-public void openAndCloseDatabase() {
+    public void openAndCloseDatabase() {
   	SQLiteDatabase database = getWritableDatabase();
 
 		close(database);
