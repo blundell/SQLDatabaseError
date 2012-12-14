@@ -7,12 +7,12 @@ See here: https://github.com/blundell/SQLDatabaseError/blob/master/SqlDatabaseCu
 
 Doesn't work:
 
-Xperia Play Android 2.3.4
-Motorola Xoom Android 4.0.4
+ - Xperia Play Android 2.3.4
+ - Motorola Xoom Android 4.0.4
 
 Does work:
 
-Samsung Galaxy Nexus Android 4.2
+ - Samsung Galaxy Nexus Android 4.2
 
 http://developer.android.com/reference/android/database/sqlite/SQLiteDatabase.html
 http://developer.android.com/reference/android/database/sqlite/SQLiteClosable.html
