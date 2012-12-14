@@ -28,7 +28,7 @@ http://developer.android.com/reference/java/io/Closeable.html
 
 
     public void openAndCloseDatabase() {
-  	SQLiteDatabase database = getWritableDatabase();
+  	    SQLiteDatabase database = getWritableDatabase();
 
 		close(database);
 	}
