@@ -1,6 +1,8 @@
 SQLDatabaseError
 ================
 
+http://stackoverflow.com/questions/13878908/sqlitedatabase-does-not-implement-interface
+
 Strange error saying SQLiteDatabase doesn't implement java.io.Closeable
 
 See here: https://github.com/blundell/SQLDatabaseError/blob/master/SqlDatabaseCursorError/src/com/blundell/sqldatabasecursorerror/DatabaseHelper.java
